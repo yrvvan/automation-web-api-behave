@@ -76,3 +76,4 @@ allure generate allure-results -o allure-report --clean
 ```
 allure serve allure-results
 ```
+![Screenshot 2025-04-08 141332](https://github.com/user-attachments/assets/2a888223-f8cb-4869-ba6e-13bb14297b23)
