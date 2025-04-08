@@ -23,6 +23,13 @@ run command in your IDE terminal to install **dependencies**
   pip install -r requirement.txt
 ```
 
+### Installation
+Set your environment by creating `.env` file in your root project
+```
+API_URL=https://api.openweathermap.org/data/2.5/
+OPENWEATHER_API_KEY={Fill with your API Key registered on Openweather}
+```
+
 ### Directory Tree
 ```
 My Project
