@@ -6,10 +6,16 @@
       "type": "string"
     },
     "message": {
-      "type": "integer"
+      "type": [
+        "integer",
+        "number"
+      ]
     },
     "cnt": {
-      "type": "integer"
+      "type": [
+        "integer",
+        "number"
+      ]
     },
     "list": {
       "type": "array",
@@ -18,7 +24,10 @@
           "type": "object",
           "properties": {
             "dt": {
-              "type": "integer"
+              "type": [
+        "integer",
+        "number"
+      ]
             },
             "main": {
               "type": "object",
@@ -36,16 +45,28 @@
                   "type": "number"
                 },
                 "pressure": {
-                  "type": "integer"
+                  "type": [
+        "integer",
+        "number"
+      ]
                 },
                 "sea_level": {
-                  "type": "integer"
+                  "type": [
+        "integer",
+        "number"
+      ]
                 },
                 "grnd_level": {
-                  "type": "integer"
+                  "type": [
+        "integer",
+        "number"
+      ]
                 },
                 "humidity": {
-                  "type": "integer"
+                  "type": [
+        "integer",
+        "number"
+      ]
                 },
                 "temp_kf": {
                   "type": "number"
@@ -71,7 +92,10 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "type": "integer"
+                      "type": [
+        "integer",
+        "number"
+      ]
                     },
                     "main": {
                       "type": "string"
@@ -97,7 +121,10 @@
               "type": "object",
               "properties": {
                 "all": {
-                  "type": "integer"
+                  "type": [
+        "integer",
+        "number"
+      ]
                 }
               },
               "additionalProperties": true,
@@ -112,7 +139,10 @@
                   "type": "number"
                 },
                 "deg": {
-                  "type": "integer"
+                  "type": [
+        "integer",
+        "number"
+      ]
                 },
                 "gust": {
                   "type": "number"
@@ -126,10 +156,16 @@
               ]
             },
             "visibility": {
-              "type": "integer"
+              "type": [
+        "integer",
+        "number"
+      ]
             },
             "pop": {
-              "type": "integer"
+              "type": [
+        "integer",
+        "number"
+      ]
             },
             "sys": {
               "type": "object",
@@ -166,7 +202,10 @@
       "type": "object",
       "properties": {
         "id": {
-          "type": "integer"
+          "type": [
+        "integer",
+        "number"
+      ]
         },
         "name": {
           "type": "string"
@@ -191,16 +230,28 @@
           "type": "string"
         },
         "population": {
-          "type": "integer"
+          "type": [
+        "integer",
+        "number"
+      ]
         },
         "timezone": {
-          "type": "integer"
+          "type": [
+        "integer",
+        "number"
+      ]
         },
         "sunrise": {
-          "type": "integer"
+          "type": [
+        "integer",
+        "number"
+      ]
         },
         "sunset": {
-          "type": "integer"
+          "type": [
+        "integer",
+        "number"
+      ]
         }
       },
       "additionalProperties": true,

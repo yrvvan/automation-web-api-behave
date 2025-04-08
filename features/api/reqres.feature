@@ -7,6 +7,6 @@ Feature: Reqres In
     Then the response status code should be 200
     And the response should contain the key "page" with value containing "1"
     And the response should contain the key "data.0.id" with value containing "1"
-    And the response should match the expected JSON schema from "user.json"
+    And the response should match the expected JSON schema from "user_schema.json"
 
 

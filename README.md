@@ -7,21 +7,21 @@ This automation will be covered :
 
 ## Prerequisite
 
-**pycharm** - used for your playground, [here](https://www.jetbrains.com/pycharm/download/?section=mac)
-
 Install **python** first in your computer, [here](https://www.python.org/) 
-
-
 
 ### Installation
 
+And install all of package
 
-run command in pycharm terminal to install **behave**
+run command in your IDE terminal to install **behave**
 ```bash
   pip install behave
 ```
 
-And install all of package 
+run command in your IDE terminal to install **dependencies**
+```bash
+  pip install -r requirement.txt
+```
 
 ### Directory Tree
 ```
@@ -59,4 +59,20 @@ behave --tags=all
 run by specific tagging
 ```
 behave --tags={tag}
+```
+
+### Run and Generate the report
+
+```
+behave -f allure_behave.formatter:AllureFormatter -o allure-results
+```
+then
+```
+allure generate allure-results -o allure-report --clean
+```
+
+### Open the report
+
+```
+allure serve allure-results
 ```

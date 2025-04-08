@@ -28,7 +28,10 @@
               "type": "object",
               "properties": {
                 "aqi": {
-                  "type": "integer"
+                  "type": [
+                    "integer",
+                    "number"
+                  ]
                 }
               },
               "additionalProperties": true,
@@ -77,7 +80,10 @@
               ]
             },
             "dt": {
-              "type": "integer"
+              "type": [
+                "integer",
+                "number"
+              ]
             }
           },
           "additionalProperties": true,
