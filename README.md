@@ -1,5 +1,5 @@
 
-# Automation with Python
+# Automation Web and API with Behave Framework
 
 This automation will be covered :
 - UI Web Automation
@@ -21,6 +21,13 @@ run command in your IDE terminal to install **behave**
 run command in your IDE terminal to install **dependencies**
 ```bash
   pip install -r requirement.txt
+```
+
+### Installation
+Set your environment by creating `.env` file in your root project
+```
+API_URL=https://api.openweathermap.org/data/2.5/
+OPENWEATHER_API_KEY={Fill with your API Key registered on Openweather}
 ```
 
 ### Directory Tree
@@ -76,3 +83,4 @@ allure generate allure-results -o allure-report --clean
 ```
 allure serve allure-results
 ```
+![Screenshot 2025-04-08 141332](https://github.com/user-attachments/assets/2a888223-f8cb-4869-ba6e-13bb14297b23)
