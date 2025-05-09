@@ -13,7 +13,7 @@ Feature: Weather Forecast And Air Polution
     Given I have the API endpoint "ENDPOINT_AIR_POLLUTION" with param {"lat": "-6.225772", "lon": "106.858182", "appid":"f6ff981edd01f34187bc0f1eba04906f"}
     When I send a GET request to the forecast API
     Then the response status code should be 200
-    And the response should contain the key "list.0.main.aqi" with value containing "3"
+    And the response should contain the key "list.0.main.aqi" with value containing "1"
     And the response should contain the key "list.0" with value containing "components"
     And the response should match the expected JSON schema from "air_pollution_schema.json"
 

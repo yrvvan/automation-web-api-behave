@@ -31,7 +31,10 @@ def get_nested_value(data, keys):
 
 @when("I send a GET request")
 def send_get_request(context):
-    context.response = requests.get(context.base_url, params=context.params)
+    header = {
+        "x-api-key": "reqres-free-v1"
+    }
+    context.response = requests.get(context.base_url, params=context.params, headers=header)
     print(f"{context.response}")
 
 
